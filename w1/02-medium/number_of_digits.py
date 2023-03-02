@@ -30,4 +30,13 @@ for page in range(total_pages + 1):
     for i in split_pages:
         total_digits += 1
 
+one_digit_pages = 9
+# 99 - 10 + 1
+two_digit_pages = 90
+# 366 - 100 + 1
+three_digit_pages = 267
+
+total_digits_exp = one_digit_pages + (two_digit_pages * 2) + (three_digit_pages * 3)
+
 print ('You will have to write', total_digits, 'digits')
+print ('You will have to write', total_digits_exp, 'digits')

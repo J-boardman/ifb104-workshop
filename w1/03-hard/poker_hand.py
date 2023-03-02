@@ -34,3 +34,6 @@ for suit in hand:
             max_value = card
 
 print(max_value)
+
+max_from_each_suit = [max(hand[0]), max(hand[2]), max(hand[3])]
+print(max(max_from_each_suit))
